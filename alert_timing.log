@@ -1,0 +1,778 @@
+2024-08-30 01:14:06,805 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-30 01:14:06,806 - [33mPress CTRL+C to quit[0m
+2024-08-30 01:14:06,808 -  * Restarting with watchdog (inotify)
+2024-08-30 01:14:09,737 -  * Debugger is active!
+2024-08-30 01:14:09,737 -  * Debugger PIN: 544-945-165
+2024-08-30 01:14:51,929 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-30 01:14:51,929 - [33mPress CTRL+C to quit[0m
+2024-08-30 01:14:51,932 -  * Restarting with watchdog (inotify)
+2024-08-30 01:14:54,828 -  * Debugger is active!
+2024-08-30 01:14:54,829 -  * Debugger PIN: 544-945-165
+2024-08-30 01:15:33,086 - 127.0.0.1 - - [30/Aug/2024 01:15:33] "GET / HTTP/1.1" 200 -
+2024-08-30 01:15:33,197 - 127.0.0.1 - - [30/Aug/2024 01:15:33] "GET /static/images/1.png HTTP/1.1" 200 -
+2024-08-30 01:15:33,213 - 127.0.0.1 - - [30/Aug/2024 01:15:33] "GET /static/images/2.png HTTP/1.1" 200 -
+2024-08-30 01:15:33,214 - 127.0.0.1 - - [30/Aug/2024 01:15:33] "GET /static/images/3.png HTTP/1.1" 200 -
+2024-08-30 01:15:33,220 - 127.0.0.1 - - [30/Aug/2024 01:15:33] "[33mGET /static/images/front.png HTTP/1.1[0m" 404 -
+2024-08-30 01:15:35,140 - 127.0.0.1 - - [30/Aug/2024 01:15:35] "GET /webcam HTTP/1.1" 200 -
+2024-08-30 01:15:39,141 - 127.0.0.1 - - [30/Aug/2024 01:15:39] "GET /webapp HTTP/1.1" 200 -
+2024-08-30 01:19:12,012 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-30 01:19:12,012 - [33mPress CTRL+C to quit[0m
+2024-08-30 01:19:12,016 -  * Restarting with watchdog (inotify)
+2024-08-30 01:19:15,024 -  * Debugger is active!
+2024-08-30 01:19:15,024 -  * Debugger PIN: 544-945-165
+2024-08-30 01:20:12,031 - 127.0.0.1 - - [30/Aug/2024 01:20:12] "GET / HTTP/1.1" 200 -
+2024-08-30 01:20:12,146 - 127.0.0.1 - - [30/Aug/2024 01:20:12] "[33mGET /static/images/front.png HTTP/1.1[0m" 404 -
+2024-08-30 01:20:12,158 - 127.0.0.1 - - [30/Aug/2024 01:20:12] "[36mGET /static/images/1.png HTTP/1.1[0m" 304 -
+2024-08-30 01:20:12,161 - 127.0.0.1 - - [30/Aug/2024 01:20:12] "[36mGET /static/images/2.png HTTP/1.1[0m" 304 -
+2024-08-30 01:20:12,164 - 127.0.0.1 - - [30/Aug/2024 01:20:12] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-30 01:20:14,034 - 127.0.0.1 - - [30/Aug/2024 01:20:14] "GET /webcam HTTP/1.1" 200 -
+2024-08-30 01:20:18,322 - Email sending took 0.34 seconds
+2024-08-30 01:20:18,554 - -- BEGIN Twilio API Request --
+2024-08-30 01:20:18,554 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-30 01:20:18,554 - Headers:
+2024-08-30 01:20:18,554 - Content-Type : application/x-www-form-urlencoded
+2024-08-30 01:20:18,555 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-30 01:20:18,555 - X-Twilio-Client : python-9.2.4
+2024-08-30 01:20:18,555 - Accept-Charset : utf-8
+2024-08-30 01:20:18,555 - Accept : application/json
+2024-08-30 01:20:18,555 - -- END Twilio API Request --
+2024-08-30 01:20:19,689 - Response Status Code: 201
+2024-08-30 01:20:19,689 - Response Headers: {'Date': 'Thu, 29 Aug 2024 19:50:19 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1171', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ18becc5cefe7b730cf1502d03d444240', 'Twilio-Request-Duration': '0.126', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-30 01:20:19,690 - SMS sending took 1.37 seconds
+2024-08-30 01:20:19,701 - 127.0.0.1 - - [30/Aug/2024 01:20:19] "GET /webapp HTTP/1.1" 200 -
+2024-08-30 01:20:48,561 - Email sending took 0.32 seconds
+2024-08-30 01:20:48,562 - -- BEGIN Twilio API Request --
+2024-08-30 01:20:48,562 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-30 01:20:48,562 - Headers:
+2024-08-30 01:20:48,562 - Content-Type : application/x-www-form-urlencoded
+2024-08-30 01:20:48,563 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-30 01:20:48,563 - X-Twilio-Client : python-9.2.4
+2024-08-30 01:20:48,563 - Accept-Charset : utf-8
+2024-08-30 01:20:48,563 - Accept : application/json
+2024-08-30 01:20:48,563 - -- END Twilio API Request --
+2024-08-30 01:20:49,530 - Response Status Code: 201
+2024-08-30 01:20:49,531 - Response Headers: {'Date': 'Thu, 29 Aug 2024 19:50:49 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '831', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQa3732aadc94d76544a54e5938cc59fde', 'Twilio-Request-Duration': '0.102', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-30 01:20:49,531 - SMS sending took 0.97 seconds
+2024-08-30 01:23:50,647 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-30 01:23:50,647 - [33mPress CTRL+C to quit[0m
+2024-08-30 01:23:50,651 -  * Restarting with watchdog (inotify)
+2024-08-30 01:23:53,379 -  * Debugger is active!
+2024-08-30 01:23:53,379 -  * Debugger PIN: 544-945-165
+2024-08-30 01:24:01,105 - 127.0.0.1 - - [30/Aug/2024 01:24:01] "GET / HTTP/1.1" 200 -
+2024-08-30 01:24:01,242 - 127.0.0.1 - - [30/Aug/2024 01:24:01] "[33mGET /static/images/front.png HTTP/1.1[0m" 404 -
+2024-08-30 01:24:01,242 - 127.0.0.1 - - [30/Aug/2024 01:24:01] "[36mGET /static/images/1.png HTTP/1.1[0m" 304 -
+2024-08-30 01:24:01,250 - 127.0.0.1 - - [30/Aug/2024 01:24:01] "[36mGET /static/images/2.png HTTP/1.1[0m" 304 -
+2024-08-30 01:24:01,251 - 127.0.0.1 - - [30/Aug/2024 01:24:01] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-30 01:24:04,622 - 127.0.0.1 - - [30/Aug/2024 01:24:04] "GET /webcam HTTP/1.1" 200 -
+2024-08-30 01:24:09,040 - Email sending took 0.38 seconds
+2024-08-30 01:24:09,216 - -- BEGIN Twilio API Request --
+2024-08-30 01:24:09,217 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-30 01:24:09,217 - Headers:
+2024-08-30 01:24:09,217 - Content-Type : application/x-www-form-urlencoded
+2024-08-30 01:24:09,217 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-30 01:24:09,217 - X-Twilio-Client : python-9.2.4
+2024-08-30 01:24:09,217 - Accept-Charset : utf-8
+2024-08-30 01:24:09,217 - Accept : application/json
+2024-08-30 01:24:09,218 - -- END Twilio API Request --
+2024-08-30 01:24:10,169 - Response Status Code: 201
+2024-08-30 01:24:10,169 - Response Headers: {'Date': 'Thu, 29 Aug 2024 19:54:10 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '865', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ4858ad775bf970ba048d5e5855112139', 'Twilio-Request-Duration': '0.102', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-30 01:24:10,170 - SMS sending took 1.13 seconds
+2024-08-30 01:24:10,182 - 127.0.0.1 - - [30/Aug/2024 01:24:10] "GET /webapp HTTP/1.1" 200 -
+2024-08-30 01:25:10,205 - Email sending took 0.46 seconds
+2024-08-30 01:25:10,206 - -- BEGIN Twilio API Request --
+2024-08-30 01:25:10,206 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-30 01:25:10,206 - Headers:
+2024-08-30 01:25:10,206 - Content-Type : application/x-www-form-urlencoded
+2024-08-30 01:25:10,206 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-30 01:25:10,206 - X-Twilio-Client : python-9.2.4
+2024-08-30 01:25:10,206 - Accept-Charset : utf-8
+2024-08-30 01:25:10,207 - Accept : application/json
+2024-08-30 01:25:10,207 - -- END Twilio API Request --
+2024-08-30 01:25:10,608 - Response Status Code: 201
+2024-08-30 01:25:10,608 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '934', 'Connection': 'keep-alive', 'Date': 'Thu, 29 Aug 2024 19:55:10 GMT', 'X-Home-Region': 'us1', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQe9b6660bdd8c239f7c8aef32b64a01b6', 'Twilio-Request-Duration': '0.102', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 1322009953622364e2aeebe7f1810218.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': 's96XzfQXyCPwPA3Xbcr3jRYaTWu--Yrx_VjSjYMaGY_p1bfRq0OT9A=='}
+2024-08-30 01:25:10,609 - SMS sending took 0.40 seconds
+2024-08-30 01:25:40,388 - Email sending took 0.49 seconds
+2024-08-30 01:25:40,389 - -- BEGIN Twilio API Request --
+2024-08-30 01:25:40,389 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-30 01:25:40,389 - Headers:
+2024-08-30 01:25:40,390 - Content-Type : application/x-www-form-urlencoded
+2024-08-30 01:25:40,390 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-30 01:25:40,390 - X-Twilio-Client : python-9.2.4
+2024-08-30 01:25:40,390 - Accept-Charset : utf-8
+2024-08-30 01:25:40,390 - Accept : application/json
+2024-08-30 01:25:40,391 - -- END Twilio API Request --
+2024-08-30 01:25:40,762 - Response Status Code: 201
+2024-08-30 01:25:40,762 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1059', 'Connection': 'keep-alive', 'Date': 'Thu, 29 Aug 2024 19:55:40 GMT', 'X-Home-Region': 'us1', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ26c1a0a7fa123667c70c66abddedc431', 'Twilio-Request-Duration': '0.123', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 41dd21519f03f53f3ae1cb69808c643e.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': '88Etesx9xMUI9v82kNoWj3XtKBZpgfdbTgIpBvc1Wh3TE66-a6NkcA=='}
+2024-08-30 01:25:40,763 - SMS sending took 0.37 seconds
+2024-08-30 01:26:10,926 - Email sending took 0.33 seconds
+2024-08-30 01:26:10,927 - -- BEGIN Twilio API Request --
+2024-08-30 01:26:10,927 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-30 01:26:10,927 - Headers:
+2024-08-30 01:26:10,928 - Content-Type : application/x-www-form-urlencoded
+2024-08-30 01:26:10,928 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-30 01:26:10,929 - X-Twilio-Client : python-9.2.4
+2024-08-30 01:26:10,929 - Accept-Charset : utf-8
+2024-08-30 01:26:10,929 - Accept : application/json
+2024-08-30 01:26:10,930 - -- END Twilio API Request --
+2024-08-30 01:26:11,952 - Response Status Code: 201
+2024-08-30 01:26:11,952 - Response Headers: {'Date': 'Thu, 29 Aug 2024 19:56:11 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '934', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ38a8d1d0d8cd45b8881ac91b43dbafa3', 'Twilio-Request-Duration': '0.098', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-30 01:26:11,952 - SMS sending took 1.03 seconds
+2024-08-31 22:06:48,845 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-31 22:06:48,846 - [33mPress CTRL+C to quit[0m
+2024-08-31 22:06:48,848 -  * Restarting with watchdog (inotify)
+2024-08-31 22:06:50,588 -  * Debugger is active!
+2024-08-31 22:06:50,588 -  * Debugger PIN: 997-425-611
+2024-08-31 22:06:54,899 - 127.0.0.1 - - [31/Aug/2024 22:06:54] "GET / HTTP/1.1" 200 -
+2024-08-31 22:06:54,938 - 127.0.0.1 - - [31/Aug/2024 22:06:54] "[33mGET /static/images/front.png HTTP/1.1[0m" 404 -
+2024-08-31 22:06:54,939 - 127.0.0.1 - - [31/Aug/2024 22:06:54] "GET /static/images/2.png HTTP/1.1" 200 -
+2024-08-31 22:06:54,944 - 127.0.0.1 - - [31/Aug/2024 22:06:54] "GET /static/images/3.png HTTP/1.1" 200 -
+2024-08-31 22:06:54,944 - 127.0.0.1 - - [31/Aug/2024 22:06:54] "GET /static/images/1.png HTTP/1.1" 200 -
+2024-08-31 22:06:56,449 - 127.0.0.1 - - [31/Aug/2024 22:06:56] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 22:06:59,449 - 127.0.0.1 - - [31/Aug/2024 22:06:59] "GET /FrontPage HTTP/1.1" 200 -
+2024-08-31 22:06:59,473 - 127.0.0.1 - - [31/Aug/2024 22:06:59] "GET /video HTTP/1.1" 200 -
+2024-08-31 22:06:59,837 - Email sending took 0.61 seconds
+2024-08-31 22:06:59,931 - -- BEGIN Twilio API Request --
+2024-08-31 22:06:59,931 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:06:59,931 - Headers:
+2024-08-31 22:06:59,931 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:06:59,931 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:06:59,931 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:06:59,931 - Accept-Charset : utf-8
+2024-08-31 22:06:59,931 - Accept : application/json
+2024-08-31 22:06:59,931 - -- END Twilio API Request --
+2024-08-31 22:07:00,928 - Response Status Code: 201
+2024-08-31 22:07:00,928 - Response Headers: {'Date': 'Sat, 31 Aug 2024 16:37:00 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '956', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ95ab9e3de8d7dc7bb8cbf4b9e3a44893', 'Twilio-Request-Duration': '0.113', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 22:07:00,929 - SMS sending took 1.09 seconds
+2024-08-31 22:07:00,941 - 127.0.0.1 - - [31/Aug/2024 22:07:00] "GET /webapp HTTP/1.1" 200 -
+2024-08-31 22:07:07,676 - 127.0.0.1 - - [31/Aug/2024 22:07:07] "POST /FrontPage HTTP/1.1" 200 -
+2024-08-31 22:07:09,760 - 127.0.0.1 - - [31/Aug/2024 22:07:09] "GET /video HTTP/1.1" 200 -
+2024-08-31 22:07:34,119 - 127.0.0.1 - - [31/Aug/2024 22:07:34] "POST /FrontPage HTTP/1.1" 200 -
+2024-08-31 22:07:37,282 - Failed to send email. Error: {'recipient@example.com': (501, b'5.1.5 Recipient address reserved by RFC 2606')}
+2024-08-31 22:07:37,284 - -- BEGIN Twilio API Request --
+2024-08-31 22:07:37,284 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:07:37,284 - Headers:
+2024-08-31 22:07:37,284 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:07:37,284 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:07:37,284 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:07:37,284 - Accept-Charset : utf-8
+2024-08-31 22:07:37,285 - Accept : application/json
+2024-08-31 22:07:37,285 - -- END Twilio API Request --
+2024-08-31 22:07:37,706 - Response Status Code: 201
+2024-08-31 22:07:37,706 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '933', 'Connection': 'keep-alive', 'Date': 'Sat, 31 Aug 2024 16:37:37 GMT', 'X-Home-Region': 'us1', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ262115393007a90280bb67aa300110d5', 'Twilio-Request-Duration': '0.120', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 f511c4300e088170d2c0ce01959cf750.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': 'PjbFlU3YeeAaaZTmN6f9HpO4udeTguMC1hMUS4-RJ713k2lt_Fj19g=='}
+2024-08-31 22:07:37,707 - SMS sending took 0.42 seconds
+2024-08-31 22:07:37,742 - 127.0.0.1 - - [31/Aug/2024 22:07:37] "GET /video HTTP/1.1" 200 -
+2024-08-31 22:08:19,806 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-31 22:08:19,806 - [33mPress CTRL+C to quit[0m
+2024-08-31 22:08:19,808 -  * Restarting with watchdog (inotify)
+2024-08-31 22:08:21,560 -  * Debugger is active!
+2024-08-31 22:08:21,560 -  * Debugger PIN: 108-280-195
+2024-08-31 22:08:22,467 - 127.0.0.1 - - [31/Aug/2024 22:08:22] "GET / HTTP/1.1" 200 -
+2024-08-31 22:08:22,514 - 127.0.0.1 - - [31/Aug/2024 22:08:22] "[33mGET /static/images/front.png HTTP/1.1[0m" 404 -
+2024-08-31 22:08:22,516 - 127.0.0.1 - - [31/Aug/2024 22:08:22] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-31 22:08:22,517 - 127.0.0.1 - - [31/Aug/2024 22:08:22] "[36mGET /static/images/2.png HTTP/1.1[0m" 304 -
+2024-08-31 22:08:22,517 - 127.0.0.1 - - [31/Aug/2024 22:08:22] "[36mGET /static/images/1.png HTTP/1.1[0m" 304 -
+2024-08-31 22:08:23,985 - 127.0.0.1 - - [31/Aug/2024 22:08:23] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 22:08:27,476 - Email sending took 0.72 seconds
+2024-08-31 22:08:27,582 - -- BEGIN Twilio API Request --
+2024-08-31 22:08:27,582 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:08:27,582 - Headers:
+2024-08-31 22:08:27,582 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:08:27,582 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:08:27,582 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:08:27,582 - Accept-Charset : utf-8
+2024-08-31 22:08:27,582 - Accept : application/json
+2024-08-31 22:08:27,582 - -- END Twilio API Request --
+2024-08-31 22:08:28,654 - Response Status Code: 201
+2024-08-31 22:08:28,654 - Response Headers: {'Date': 'Sat, 31 Aug 2024 16:38:28 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '934', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ86ba53faf6a3590a85a61d60fbc24395', 'Twilio-Request-Duration': '0.102', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 22:08:28,654 - SMS sending took 1.18 seconds
+2024-08-31 22:08:28,663 - 127.0.0.1 - - [31/Aug/2024 22:08:28] "GET /webapp HTTP/1.1" 200 -
+2024-08-31 22:08:57,386 - Email sending took 0.46 seconds
+2024-08-31 22:08:57,386 - -- BEGIN Twilio API Request --
+2024-08-31 22:08:57,387 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:08:57,387 - Headers:
+2024-08-31 22:08:57,387 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:08:57,387 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:08:57,387 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:08:57,387 - Accept-Charset : utf-8
+2024-08-31 22:08:57,387 - Accept : application/json
+2024-08-31 22:08:57,388 - -- END Twilio API Request --
+2024-08-31 22:08:58,349 - Response Status Code: 201
+2024-08-31 22:08:58,350 - Response Headers: {'Date': 'Sat, 31 Aug 2024 16:38:58 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '831', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQfc1da92271a8ebb7f6c05200264569b7', 'Twilio-Request-Duration': '0.088', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 22:08:58,350 - SMS sending took 0.96 seconds
+2024-08-31 22:09:57,960 - Email sending took 0.50 seconds
+2024-08-31 22:09:57,961 - -- BEGIN Twilio API Request --
+2024-08-31 22:09:57,961 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:09:57,962 - Headers:
+2024-08-31 22:09:57,962 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:09:57,963 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:09:57,963 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:09:57,963 - Accept-Charset : utf-8
+2024-08-31 22:09:57,963 - Accept : application/json
+2024-08-31 22:09:57,963 - -- END Twilio API Request --
+2024-08-31 22:09:58,956 - Response Status Code: 201
+2024-08-31 22:09:58,956 - Response Headers: {'Date': 'Sat, 31 Aug 2024 16:39:58 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '831', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ2002b865d22df5b7384d566f6199bcf1', 'Twilio-Request-Duration': '0.098', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 22:09:58,957 - SMS sending took 1.00 seconds
+2024-08-31 22:10:48,600 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-31 22:10:48,600 - [33mPress CTRL+C to quit[0m
+2024-08-31 22:10:48,602 -  * Restarting with watchdog (inotify)
+2024-08-31 22:10:50,373 -  * Debugger is active!
+2024-08-31 22:10:50,374 -  * Debugger PIN: 296-054-655
+2024-08-31 22:10:53,785 - 127.0.0.1 - - [31/Aug/2024 22:10:53] "GET / HTTP/1.1" 200 -
+2024-08-31 22:10:53,817 - 127.0.0.1 - - [31/Aug/2024 22:10:53] "[33mGET /static/images/front.png HTTP/1.1[0m" 404 -
+2024-08-31 22:10:53,820 - 127.0.0.1 - - [31/Aug/2024 22:10:53] "[36mGET /static/images/2.png HTTP/1.1[0m" 304 -
+2024-08-31 22:10:53,821 - 127.0.0.1 - - [31/Aug/2024 22:10:53] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-31 22:10:53,822 - 127.0.0.1 - - [31/Aug/2024 22:10:53] "[36mGET /static/images/1.png HTTP/1.1[0m" 304 -
+2024-08-31 22:10:55,452 - 127.0.0.1 - - [31/Aug/2024 22:10:55] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 22:10:58,817 - Email sending took 0.53 seconds
+2024-08-31 22:10:58,917 - -- BEGIN Twilio API Request --
+2024-08-31 22:10:58,917 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:10:58,917 - Headers:
+2024-08-31 22:10:58,917 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:10:58,917 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:10:58,917 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:10:58,917 - Accept-Charset : utf-8
+2024-08-31 22:10:58,917 - Accept : application/json
+2024-08-31 22:10:58,917 - -- END Twilio API Request --
+2024-08-31 22:10:59,895 - Response Status Code: 201
+2024-08-31 22:10:59,896 - Response Headers: {'Date': 'Sat, 31 Aug 2024 16:40:59 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '934', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQd920ca68e364a69f7c67600391b10dff', 'Twilio-Request-Duration': '0.107', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 22:10:59,896 - SMS sending took 1.08 seconds
+2024-08-31 22:10:59,905 - 127.0.0.1 - - [31/Aug/2024 22:10:59] "GET /webapp HTTP/1.1" 200 -
+2024-08-31 22:11:29,155 - Email sending took 0.52 seconds
+2024-08-31 22:11:29,155 - -- BEGIN Twilio API Request --
+2024-08-31 22:11:29,156 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:11:29,156 - Headers:
+2024-08-31 22:11:29,156 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:11:29,156 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:11:29,156 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:11:29,156 - Accept-Charset : utf-8
+2024-08-31 22:11:29,157 - Accept : application/json
+2024-08-31 22:11:29,157 - -- END Twilio API Request --
+2024-08-31 22:11:30,114 - Response Status Code: 201
+2024-08-31 22:11:30,114 - Response Headers: {'Date': 'Sat, 31 Aug 2024 16:41:30 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '831', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ9167cfbe8cdac2ff96b4a2681c12f0f2', 'Twilio-Request-Duration': '0.097', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 22:11:30,114 - SMS sending took 0.96 seconds
+2024-08-31 22:15:39,437 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-31 22:15:39,437 - [33mPress CTRL+C to quit[0m
+2024-08-31 22:15:39,439 -  * Restarting with watchdog (inotify)
+2024-08-31 22:15:41,132 -  * Debugger is active!
+2024-08-31 22:15:41,133 -  * Debugger PIN: 676-612-135
+2024-08-31 22:15:44,647 - 127.0.0.1 - - [31/Aug/2024 22:15:44] "GET / HTTP/1.1" 200 -
+2024-08-31 22:15:44,685 - 127.0.0.1 - - [31/Aug/2024 22:15:44] "GET /static/images/1.png HTTP/1.1" 200 -
+2024-08-31 22:15:44,687 - 127.0.0.1 - - [31/Aug/2024 22:15:44] "GET /static/images/2.png HTTP/1.1" 200 -
+2024-08-31 22:15:44,688 - 127.0.0.1 - - [31/Aug/2024 22:15:44] "GET /static/images/3.png HTTP/1.1" 200 -
+2024-08-31 22:15:49,090 - 127.0.0.1 - - [31/Aug/2024 22:15:49] "[33mGET /contact HTTP/1.1[0m" 404 -
+2024-08-31 22:15:51,561 - 127.0.0.1 - - [31/Aug/2024 22:15:51] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 22:15:54,743 - Email sending took 0.32 seconds
+2024-08-31 22:15:54,846 - -- BEGIN Twilio API Request --
+2024-08-31 22:15:54,846 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:15:54,846 - Headers:
+2024-08-31 22:15:54,846 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:15:54,846 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:15:54,846 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:15:54,847 - Accept-Charset : utf-8
+2024-08-31 22:15:54,847 - Accept : application/json
+2024-08-31 22:15:54,847 - -- END Twilio API Request --
+2024-08-31 22:15:55,842 - Response Status Code: 201
+2024-08-31 22:15:55,842 - Response Headers: {'Date': 'Sat, 31 Aug 2024 16:45:55 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '933', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ16df2f9eddc4cb24728e33b641aa18df', 'Twilio-Request-Duration': '0.117', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 22:15:55,842 - SMS sending took 1.10 seconds
+2024-08-31 22:15:55,850 - 127.0.0.1 - - [31/Aug/2024 22:15:55] "GET /webapp HTTP/1.1" 200 -
+2024-08-31 22:16:25,423 - Email sending took 0.59 seconds
+2024-08-31 22:16:25,424 - -- BEGIN Twilio API Request --
+2024-08-31 22:16:25,424 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:16:25,424 - Headers:
+2024-08-31 22:16:25,425 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:16:25,425 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:16:25,425 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:16:25,426 - Accept-Charset : utf-8
+2024-08-31 22:16:25,426 - Accept : application/json
+2024-08-31 22:16:25,426 - -- END Twilio API Request --
+2024-08-31 22:16:25,782 - Response Status Code: 201
+2024-08-31 22:16:25,782 - Response Headers: {'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1036', 'Connection': 'keep-alive', 'Date': 'Sat, 31 Aug 2024 16:46:25 GMT', 'X-Home-Region': 'us1', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ91e69a1f2d385f85ee94db7ee0e177a5', 'Twilio-Request-Duration': '0.097', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Cache': 'Miss from cloudfront', 'Via': '1.1 f193db4ca15282854bb68270a34c2db2.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'BOM78-P4', 'X-Amz-Cf-Id': '6xHwsKlriEiMZYkBa103TxRD0WAzWpAravF2w8aPWilVzXeFX8Tm4g=='}
+2024-08-31 22:16:25,783 - SMS sending took 0.36 seconds
+2024-08-31 22:16:47,141 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-31 22:16:47,141 - [33mPress CTRL+C to quit[0m
+2024-08-31 22:16:47,143 -  * Restarting with watchdog (inotify)
+2024-08-31 22:16:49,003 -  * Debugger is active!
+2024-08-31 22:16:49,003 -  * Debugger PIN: 113-570-373
+2024-08-31 22:16:53,989 - 127.0.0.1 - - [31/Aug/2024 22:16:53] "GET / HTTP/1.1" 200 -
+2024-08-31 22:16:54,030 - 127.0.0.1 - - [31/Aug/2024 22:16:54] "[36mGET /static/images/2.png HTTP/1.1[0m" 304 -
+2024-08-31 22:16:54,034 - 127.0.0.1 - - [31/Aug/2024 22:16:54] "[36mGET /static/images/1.png HTTP/1.1[0m" 304 -
+2024-08-31 22:16:54,034 - 127.0.0.1 - - [31/Aug/2024 22:16:54] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-31 22:21:01,829 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-31 22:21:01,829 - [33mPress CTRL+C to quit[0m
+2024-08-31 22:21:01,832 -  * Restarting with watchdog (inotify)
+2024-08-31 22:21:03,618 -  * Debugger is active!
+2024-08-31 22:21:03,618 -  * Debugger PIN: 113-570-373
+2024-08-31 22:21:04,370 - 127.0.0.1 - - [31/Aug/2024 22:21:04] "GET / HTTP/1.1" 200 -
+2024-08-31 22:21:04,402 - 127.0.0.1 - - [31/Aug/2024 22:21:04] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-31 22:21:04,402 - 127.0.0.1 - - [31/Aug/2024 22:21:04] "GET /static/images/kongsberg.jpeg HTTP/1.1" 200 -
+2024-08-31 22:21:04,403 - 127.0.0.1 - - [31/Aug/2024 22:21:04] "[36mGET /static/images/1.png HTTP/1.1[0m" 304 -
+2024-08-31 22:21:04,406 - 127.0.0.1 - - [31/Aug/2024 22:21:04] "[36mGET /static/images/2.png HTTP/1.1[0m" 304 -
+2024-08-31 22:21:06,328 - 127.0.0.1 - - [31/Aug/2024 22:21:06] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 22:21:06,356 - 127.0.0.1 - - [31/Aug/2024 22:21:06] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:21:08,809 - 127.0.0.1 - - [31/Aug/2024 22:21:08] "GET /FrontPage HTTP/1.1" 200 -
+2024-08-31 22:21:08,843 - 127.0.0.1 - - [31/Aug/2024 22:21:08] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:21:09,583 - Email sending took 0.38 seconds
+2024-08-31 22:21:09,689 - -- BEGIN Twilio API Request --
+2024-08-31 22:21:09,689 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:21:09,689 - Headers:
+2024-08-31 22:21:09,689 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:21:09,689 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:21:09,689 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:21:09,689 - Accept-Charset : utf-8
+2024-08-31 22:21:09,689 - Accept : application/json
+2024-08-31 22:21:09,689 - -- END Twilio API Request --
+2024-08-31 22:21:10,642 - Response Status Code: 201
+2024-08-31 22:21:10,642 - Response Headers: {'Date': 'Sat, 31 Aug 2024 16:51:10 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '956', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQa68c1c1a4f41f273d71fc4db24e85182', 'Twilio-Request-Duration': '0.119', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 22:21:10,642 - SMS sending took 1.06 seconds
+2024-08-31 22:21:10,647 - 127.0.0.1 - - [31/Aug/2024 22:21:10] "GET /webapp HTTP/1.1" 200 -
+2024-08-31 22:21:11,075 - 127.0.0.1 - - [31/Aug/2024 22:21:11] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 22:21:11,099 - 127.0.0.1 - - [31/Aug/2024 22:21:11] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:21:12,873 - 127.0.0.1 - - [31/Aug/2024 22:21:12] "[33mGET /contact HTTP/1.1[0m" 404 -
+2024-08-31 22:21:13,757 - 127.0.0.1 - - [31/Aug/2024 22:21:13] "GET /webapp HTTP/1.1" 200 -
+2024-08-31 22:21:14,516 - 127.0.0.1 - - [31/Aug/2024 22:21:14] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 22:21:14,547 - 127.0.0.1 - - [31/Aug/2024 22:21:14] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:21:14,547 - 127.0.0.1 - - [31/Aug/2024 22:21:14] "GET /webapp HTTP/1.1" 200 -
+2024-08-31 22:21:16,622 - 127.0.0.1 - - [31/Aug/2024 22:21:16] "GET /webapp HTTP/1.1" 200 -
+2024-08-31 22:21:58,008 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-31 22:21:58,008 - [33mPress CTRL+C to quit[0m
+2024-08-31 22:21:58,010 -  * Restarting with watchdog (inotify)
+2024-08-31 22:21:59,694 -  * Debugger is active!
+2024-08-31 22:21:59,694 -  * Debugger PIN: 113-570-373
+2024-08-31 22:22:01,846 - 127.0.0.1 - - [31/Aug/2024 22:22:01] "GET / HTTP/1.1" 200 -
+2024-08-31 22:22:01,878 - 127.0.0.1 - - [31/Aug/2024 22:22:01] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:22:01,878 - 127.0.0.1 - - [31/Aug/2024 22:22:01] "[36mGET /static/images/1.png HTTP/1.1[0m" 304 -
+2024-08-31 22:22:01,881 - 127.0.0.1 - - [31/Aug/2024 22:22:01] "[36mGET /static/images/2.png HTTP/1.1[0m" 304 -
+2024-08-31 22:22:01,882 - 127.0.0.1 - - [31/Aug/2024 22:22:01] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-31 22:22:03,149 - 127.0.0.1 - - [31/Aug/2024 22:22:03] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 22:22:06,302 - Email sending took 0.34 seconds
+2024-08-31 22:22:06,410 - -- BEGIN Twilio API Request --
+2024-08-31 22:22:06,410 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:22:06,411 - Headers:
+2024-08-31 22:22:06,411 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:22:06,411 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:22:06,411 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:22:06,411 - Accept-Charset : utf-8
+2024-08-31 22:22:06,411 - Accept : application/json
+2024-08-31 22:22:06,411 - -- END Twilio API Request --
+2024-08-31 22:24:42,627 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-31 22:24:42,627 - [33mPress CTRL+C to quit[0m
+2024-08-31 22:24:42,629 -  * Restarting with watchdog (inotify)
+2024-08-31 22:24:44,499 -  * Debugger is active!
+2024-08-31 22:24:44,499 -  * Debugger PIN: 113-570-373
+2024-08-31 22:24:45,685 - 127.0.0.1 - - [31/Aug/2024 22:24:45] "GET / HTTP/1.1" 200 -
+2024-08-31 22:24:45,716 - 127.0.0.1 - - [31/Aug/2024 22:24:45] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:24:45,716 - 127.0.0.1 - - [31/Aug/2024 22:24:45] "[36mGET /static/images/1.png HTTP/1.1[0m" 304 -
+2024-08-31 22:24:45,717 - 127.0.0.1 - - [31/Aug/2024 22:24:45] "[36mGET /static/images/2.png HTTP/1.1[0m" 304 -
+2024-08-31 22:24:45,718 - 127.0.0.1 - - [31/Aug/2024 22:24:45] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-31 22:24:47,099 - 127.0.0.1 - - [31/Aug/2024 22:24:47] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 22:24:47,122 - 127.0.0.1 - - [31/Aug/2024 22:24:47] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:24:50,797 - Email sending took 0.91 seconds
+2024-08-31 22:24:50,910 - -- BEGIN Twilio API Request --
+2024-08-31 22:24:50,910 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:24:50,911 - Headers:
+2024-08-31 22:24:50,911 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:24:50,911 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:24:50,911 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:24:50,911 - Accept-Charset : utf-8
+2024-08-31 22:24:50,911 - Accept : application/json
+2024-08-31 22:24:50,911 - -- END Twilio API Request --
+2024-08-31 22:24:51,992 - Response Status Code: 201
+2024-08-31 22:24:51,992 - Response Headers: {'Date': 'Sat, 31 Aug 2024 16:54:51 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1037', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQd2a89ea7483f77831228efd8bdab7b6c', 'Twilio-Request-Duration': '0.128', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 22:24:51,993 - SMS sending took 1.20 seconds
+2024-08-31 22:24:52,008 - 127.0.0.1 - - [31/Aug/2024 22:24:52] "GET /webapp HTTP/1.1" 200 -
+2024-08-31 22:25:20,182 - Email sending took 0.30 seconds
+2024-08-31 22:25:20,182 - -- BEGIN Twilio API Request --
+2024-08-31 22:25:20,183 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:25:20,183 - Headers:
+2024-08-31 22:25:20,183 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:25:20,184 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:25:20,185 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:25:20,185 - Accept-Charset : utf-8
+2024-08-31 22:25:20,185 - Accept : application/json
+2024-08-31 22:25:20,185 - -- END Twilio API Request --
+2024-08-31 22:25:21,243 - Response Status Code: 201
+2024-08-31 22:25:21,244 - Response Headers: {'Date': 'Sat, 31 Aug 2024 16:55:21 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1037', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ9f0ded350cb6da2833f2138ce1116efe', 'Twilio-Request-Duration': '0.111', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 22:25:21,245 - SMS sending took 1.06 seconds
+2024-08-31 22:25:50,437 - Email sending took 0.35 seconds
+2024-08-31 22:25:50,438 - -- BEGIN Twilio API Request --
+2024-08-31 22:25:50,438 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:25:50,438 - Headers:
+2024-08-31 22:25:50,439 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:25:50,439 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:25:50,439 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:25:50,439 - Accept-Charset : utf-8
+2024-08-31 22:25:50,440 - Accept : application/json
+2024-08-31 22:25:50,440 - -- END Twilio API Request --
+2024-08-31 22:25:51,430 - Response Status Code: 201
+2024-08-31 22:25:51,430 - Response Headers: {'Date': 'Sat, 31 Aug 2024 16:55:51 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1421', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ8eb2595f3a201e5a181914d5a4f68c6a', 'Twilio-Request-Duration': '0.095', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 22:25:51,431 - SMS sending took 0.99 seconds
+2024-08-31 22:26:39,293 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-31 22:26:39,293 - [33mPress CTRL+C to quit[0m
+2024-08-31 22:26:39,295 -  * Restarting with watchdog (inotify)
+2024-08-31 22:26:41,227 -  * Debugger is active!
+2024-08-31 22:26:41,228 -  * Debugger PIN: 113-570-373
+2024-08-31 22:26:41,566 - 127.0.0.1 - - [31/Aug/2024 22:26:41] "GET / HTTP/1.1" 200 -
+2024-08-31 22:26:41,618 - 127.0.0.1 - - [31/Aug/2024 22:26:41] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:26:41,619 - 127.0.0.1 - - [31/Aug/2024 22:26:41] "[36mGET /static/images/2.png HTTP/1.1[0m" 304 -
+2024-08-31 22:26:41,620 - 127.0.0.1 - - [31/Aug/2024 22:26:41] "[36mGET /static/images/1.png HTTP/1.1[0m" 304 -
+2024-08-31 22:26:41,620 - 127.0.0.1 - - [31/Aug/2024 22:26:41] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-31 22:26:47,232 - 127.0.0.1 - - [31/Aug/2024 22:26:47] "GET /FrontPage HTTP/1.1" 200 -
+2024-08-31 22:26:47,257 - 127.0.0.1 - - [31/Aug/2024 22:26:47] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:26:51,911 - 127.0.0.1 - - [31/Aug/2024 22:26:51] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 22:26:51,937 - 127.0.0.1 - - [31/Aug/2024 22:26:51] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:26:55,162 - Email sending took 0.38 seconds
+2024-08-31 22:26:55,289 - -- BEGIN Twilio API Request --
+2024-08-31 22:26:55,290 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:26:55,290 - Headers:
+2024-08-31 22:26:55,290 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:26:55,290 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:26:55,290 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:26:55,290 - Accept-Charset : utf-8
+2024-08-31 22:26:55,290 - Accept : application/json
+2024-08-31 22:26:55,291 - -- END Twilio API Request --
+2024-08-31 22:26:56,345 - Response Status Code: 201
+2024-08-31 22:26:56,346 - Response Headers: {'Date': 'Sat, 31 Aug 2024 16:56:56 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '831', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQf90a34c7a7118488f1f213322b3cd61b', 'Twilio-Request-Duration': '0.127', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 22:26:56,346 - SMS sending took 1.18 seconds
+2024-08-31 22:26:56,357 - 127.0.0.1 - - [31/Aug/2024 22:26:56] "GET /webapp HTTP/1.1" 200 -
+2024-08-31 22:26:58,235 - 127.0.0.1 - - [31/Aug/2024 22:26:58] "GET /FrontPage HTTP/1.1" 200 -
+2024-08-31 22:26:58,265 - 127.0.0.1 - - [31/Aug/2024 22:26:58] "GET /static/images/kongsberg.jpeg HTTP/1.1" 200 -
+2024-08-31 22:27:03,325 - 127.0.0.1 - - [31/Aug/2024 22:27:03] "GET /home HTTP/1.1" 200 -
+2024-08-31 22:27:03,358 - 127.0.0.1 - - [31/Aug/2024 22:27:03] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:27:03,359 - 127.0.0.1 - - [31/Aug/2024 22:27:03] "[36mGET /static/images/1.png HTTP/1.1[0m" 304 -
+2024-08-31 22:27:03,360 - 127.0.0.1 - - [31/Aug/2024 22:27:03] "[36mGET /static/images/2.png HTTP/1.1[0m" 304 -
+2024-08-31 22:27:03,362 - 127.0.0.1 - - [31/Aug/2024 22:27:03] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-31 22:28:09,851 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-31 22:28:09,851 - [33mPress CTRL+C to quit[0m
+2024-08-31 22:28:09,853 -  * Restarting with watchdog (inotify)
+2024-08-31 22:28:11,798 -  * Debugger is active!
+2024-08-31 22:28:11,799 -  * Debugger PIN: 115-247-628
+2024-08-31 22:28:13,682 - 127.0.0.1 - - [31/Aug/2024 22:28:13] "GET / HTTP/1.1" 200 -
+2024-08-31 22:28:13,738 - 127.0.0.1 - - [31/Aug/2024 22:28:13] "[36mGET /static/images/1.png HTTP/1.1[0m" 304 -
+2024-08-31 22:28:13,741 - 127.0.0.1 - - [31/Aug/2024 22:28:13] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:28:13,745 - 127.0.0.1 - - [31/Aug/2024 22:28:13] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-31 22:28:13,746 - 127.0.0.1 - - [31/Aug/2024 22:28:13] "[36mGET /static/images/2.png HTTP/1.1[0m" 304 -
+2024-08-31 22:28:14,734 - 127.0.0.1 - - [31/Aug/2024 22:28:14] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 22:28:14,773 - 127.0.0.1 - - [31/Aug/2024 22:28:14] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:28:17,935 - Email sending took 0.35 seconds
+2024-08-31 22:28:18,057 - -- BEGIN Twilio API Request --
+2024-08-31 22:28:18,057 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:28:18,057 - Headers:
+2024-08-31 22:28:18,057 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:28:18,057 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:28:18,057 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:28:18,057 - Accept-Charset : utf-8
+2024-08-31 22:28:18,057 - Accept : application/json
+2024-08-31 22:28:18,057 - -- END Twilio API Request --
+2024-08-31 22:28:19,070 - Response Status Code: 201
+2024-08-31 22:28:19,071 - Response Headers: {'Date': 'Sat, 31 Aug 2024 16:58:18 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1059', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ028860762555831f48d9d70d8f1c3eb8', 'Twilio-Request-Duration': '0.101', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 22:28:19,071 - SMS sending took 1.14 seconds
+2024-08-31 22:28:19,082 - 127.0.0.1 - - [31/Aug/2024 22:28:19] "GET /webapp HTTP/1.1" 200 -
+2024-08-31 22:31:42,512 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-31 22:31:42,512 - [33mPress CTRL+C to quit[0m
+2024-08-31 22:31:42,514 -  * Restarting with watchdog (inotify)
+2024-08-31 22:31:44,281 -  * Debugger is active!
+2024-08-31 22:31:44,281 -  * Debugger PIN: 589-315-850
+2024-08-31 22:31:46,753 - 127.0.0.1 - - [31/Aug/2024 22:31:46] "GET / HTTP/1.1" 200 -
+2024-08-31 22:31:46,798 - 127.0.0.1 - - [31/Aug/2024 22:31:46] "[36mGET /static/images/1.png HTTP/1.1[0m" 304 -
+2024-08-31 22:31:46,798 - 127.0.0.1 - - [31/Aug/2024 22:31:46] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-31 22:31:46,799 - 127.0.0.1 - - [31/Aug/2024 22:31:46] "[36mGET /static/images/2.png HTTP/1.1[0m" 304 -
+2024-08-31 22:31:46,800 - 127.0.0.1 - - [31/Aug/2024 22:31:46] "GET /static/images/kongsberg.jpeg HTTP/1.1" 200 -
+2024-08-31 22:31:48,108 - 127.0.0.1 - - [31/Aug/2024 22:31:48] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 22:31:48,130 - 127.0.0.1 - - [31/Aug/2024 22:31:48] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:31:51,312 - Email sending took 0.40 seconds
+2024-08-31 22:31:51,420 - -- BEGIN Twilio API Request --
+2024-08-31 22:31:51,420 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:31:51,420 - Headers:
+2024-08-31 22:31:51,420 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:31:51,420 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:31:51,420 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:31:51,421 - Accept-Charset : utf-8
+2024-08-31 22:31:51,421 - Accept : application/json
+2024-08-31 22:31:51,421 - -- END Twilio API Request --
+2024-08-31 22:31:52,434 - Response Status Code: 201
+2024-08-31 22:31:52,434 - Response Headers: {'Date': 'Sat, 31 Aug 2024 17:01:52 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '956', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQa1676cf01d81ff1ed30ca8064eadfb2f', 'Twilio-Request-Duration': '0.100', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 22:31:52,434 - SMS sending took 1.12 seconds
+2024-08-31 22:31:52,441 - 127.0.0.1 - - [31/Aug/2024 22:31:52] "GET /webapp HTTP/1.1" 200 -
+2024-08-31 22:34:20,555 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-31 22:34:20,555 - [33mPress CTRL+C to quit[0m
+2024-08-31 22:34:20,558 -  * Restarting with watchdog (inotify)
+2024-08-31 22:34:22,435 -  * Debugger is active!
+2024-08-31 22:34:22,435 -  * Debugger PIN: 841-873-957
+2024-08-31 22:34:25,277 - 127.0.0.1 - - [31/Aug/2024 22:34:25] "GET / HTTP/1.1" 200 -
+2024-08-31 22:34:25,320 - 127.0.0.1 - - [31/Aug/2024 22:34:25] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:34:25,321 - 127.0.0.1 - - [31/Aug/2024 22:34:25] "[36mGET /static/images/2.png HTTP/1.1[0m" 304 -
+2024-08-31 22:34:25,322 - 127.0.0.1 - - [31/Aug/2024 22:34:25] "[36mGET /static/images/1.png HTTP/1.1[0m" 304 -
+2024-08-31 22:34:25,322 - 127.0.0.1 - - [31/Aug/2024 22:34:25] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-31 22:34:25,328 - 127.0.0.1 - - [31/Aug/2024 22:34:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-08-31 22:34:27,278 - 127.0.0.1 - - [31/Aug/2024 22:34:27] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 22:34:27,302 - 127.0.0.1 - - [31/Aug/2024 22:34:27] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:34:31,042 - Email sending took 0.89 seconds
+2024-08-31 22:34:31,155 - -- BEGIN Twilio API Request --
+2024-08-31 22:34:31,155 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:34:31,155 - Headers:
+2024-08-31 22:34:31,155 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:34:31,155 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:34:31,156 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:34:31,156 - Accept-Charset : utf-8
+2024-08-31 22:34:31,156 - Accept : application/json
+2024-08-31 22:34:31,156 - -- END Twilio API Request --
+2024-08-31 22:34:32,387 - Response Status Code: 201
+2024-08-31 22:34:32,388 - Response Headers: {'Date': 'Sat, 31 Aug 2024 17:04:32 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '956', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQb1c436476e48566f1228737b16b0c269', 'Twilio-Request-Duration': '0.128', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 22:34:32,388 - SMS sending took 1.35 seconds
+2024-08-31 22:34:32,396 - 127.0.0.1 - - [31/Aug/2024 22:34:32] "GET /webapp HTTP/1.1" 200 -
+2024-08-31 22:35:32,820 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-31 22:35:32,820 - [33mPress CTRL+C to quit[0m
+2024-08-31 22:35:32,823 -  * Restarting with watchdog (inotify)
+2024-08-31 22:35:34,636 -  * Debugger is active!
+2024-08-31 22:35:34,636 -  * Debugger PIN: 589-315-850
+2024-08-31 22:35:39,551 - 127.0.0.1 - - [31/Aug/2024 22:35:39] "GET / HTTP/1.1" 200 -
+2024-08-31 22:35:39,588 - 127.0.0.1 - - [31/Aug/2024 22:35:39] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:35:39,588 - 127.0.0.1 - - [31/Aug/2024 22:35:39] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-31 22:35:39,589 - 127.0.0.1 - - [31/Aug/2024 22:35:39] "[36mGET /static/images/2.png HTTP/1.1[0m" 304 -
+2024-08-31 22:35:39,589 - 127.0.0.1 - - [31/Aug/2024 22:35:39] "[36mGET /static/images/1.png HTTP/1.1[0m" 304 -
+2024-08-31 22:35:41,605 - 127.0.0.1 - - [31/Aug/2024 22:35:41] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 22:35:41,639 - 127.0.0.1 - - [31/Aug/2024 22:35:41] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:35:44,922 - Email sending took 0.51 seconds
+2024-08-31 22:35:45,026 - -- BEGIN Twilio API Request --
+2024-08-31 22:35:45,026 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:35:45,026 - Headers:
+2024-08-31 22:35:45,026 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:35:45,026 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:35:45,026 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:35:45,026 - Accept-Charset : utf-8
+2024-08-31 22:35:45,026 - Accept : application/json
+2024-08-31 22:35:45,026 - -- END Twilio API Request --
+2024-08-31 22:35:46,159 - Response Status Code: 201
+2024-08-31 22:35:46,159 - Response Headers: {'Date': 'Sat, 31 Aug 2024 17:05:46 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1161', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ62d8576e087bf5ecf341f79dec963728', 'Twilio-Request-Duration': '0.113', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 22:35:46,160 - SMS sending took 1.24 seconds
+2024-08-31 22:35:46,166 - 127.0.0.1 - - [31/Aug/2024 22:35:46] "GET /webapp HTTP/1.1" 200 -
+2024-08-31 22:36:20,231 - Email sending took 5.37 seconds
+2024-08-31 22:36:20,232 - -- BEGIN Twilio API Request --
+2024-08-31 22:36:20,233 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:36:20,233 - Headers:
+2024-08-31 22:36:20,233 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:36:20,233 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:36:20,233 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:36:20,234 - Accept-Charset : utf-8
+2024-08-31 22:36:20,234 - Accept : application/json
+2024-08-31 22:36:20,234 - -- END Twilio API Request --
+2024-08-31 22:36:21,178 - Response Status Code: 201
+2024-08-31 22:36:21,178 - Response Headers: {'Date': 'Sat, 31 Aug 2024 17:06:21 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '831', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQa9dade93ad2d6f175246f17c88a33fdd', 'Twilio-Request-Duration': '0.096', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 22:36:21,178 - SMS sending took 0.95 seconds
+2024-08-31 22:36:26,691 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-31 22:36:26,691 - [33mPress CTRL+C to quit[0m
+2024-08-31 22:36:26,693 -  * Restarting with watchdog (inotify)
+2024-08-31 22:36:28,419 -  * Debugger is active!
+2024-08-31 22:36:28,419 -  * Debugger PIN: 589-315-850
+2024-08-31 22:36:31,343 - 127.0.0.1 - - [31/Aug/2024 22:36:31] "GET / HTTP/1.1" 200 -
+2024-08-31 22:36:31,385 - 127.0.0.1 - - [31/Aug/2024 22:36:31] "[36mGET /static/images/1.png HTTP/1.1[0m" 304 -
+2024-08-31 22:36:31,385 - 127.0.0.1 - - [31/Aug/2024 22:36:31] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:36:31,386 - 127.0.0.1 - - [31/Aug/2024 22:36:31] "[36mGET /static/images/2.png HTTP/1.1[0m" 304 -
+2024-08-31 22:36:31,387 - 127.0.0.1 - - [31/Aug/2024 22:36:31] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-31 22:36:32,335 - 127.0.0.1 - - [31/Aug/2024 22:36:32] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 22:36:32,359 - 127.0.0.1 - - [31/Aug/2024 22:36:32] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:36:35,302 - 127.0.0.1 - - [31/Aug/2024 22:36:35] "GET /webapp HTTP/1.1" 200 -
+2024-08-31 22:46:30,150 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-31 22:46:30,150 - [33mPress CTRL+C to quit[0m
+2024-08-31 22:46:30,152 -  * Restarting with watchdog (inotify)
+2024-08-31 22:46:31,945 -  * Debugger is active!
+2024-08-31 22:46:31,945 -  * Debugger PIN: 862-285-501
+2024-08-31 22:46:34,599 - 127.0.0.1 - - [31/Aug/2024 22:46:34] "GET / HTTP/1.1" 200 -
+2024-08-31 22:46:34,641 - 127.0.0.1 - - [31/Aug/2024 22:46:34] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:46:34,642 - 127.0.0.1 - - [31/Aug/2024 22:46:34] "[36mGET /static/images/2.png HTTP/1.1[0m" 304 -
+2024-08-31 22:46:34,644 - 127.0.0.1 - - [31/Aug/2024 22:46:34] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-31 22:46:34,645 - 127.0.0.1 - - [31/Aug/2024 22:46:34] "[36mGET /static/images/1.png HTTP/1.1[0m" 304 -
+2024-08-31 22:46:44,989 - 127.0.0.1 - - [31/Aug/2024 22:46:44] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 22:46:45,031 - 127.0.0.1 - - [31/Aug/2024 22:46:45] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:46:47,987 - 127.0.0.1 - - [31/Aug/2024 22:46:47] "GET /webapp HTTP/1.1" 200 -
+2024-08-31 22:46:49,099 - 127.0.0.1 - - [31/Aug/2024 22:46:49] "GET /home HTTP/1.1" 200 -
+2024-08-31 22:46:49,135 - 127.0.0.1 - - [31/Aug/2024 22:46:49] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:46:49,143 - 127.0.0.1 - - [31/Aug/2024 22:46:49] "[36mGET /static/images/1.png HTTP/1.1[0m" 304 -
+2024-08-31 22:46:49,146 - 127.0.0.1 - - [31/Aug/2024 22:46:49] "[36mGET /static/images/2.png HTTP/1.1[0m" 304 -
+2024-08-31 22:46:49,147 - 127.0.0.1 - - [31/Aug/2024 22:46:49] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-31 22:46:50,373 - 127.0.0.1 - - [31/Aug/2024 22:46:50] "GET /FrontPage HTTP/1.1" 200 -
+2024-08-31 22:46:50,398 - 127.0.0.1 - - [31/Aug/2024 22:46:50] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:46:51,339 - 127.0.0.1 - - [31/Aug/2024 22:46:51] "GET /home HTTP/1.1" 200 -
+2024-08-31 22:46:51,370 - 127.0.0.1 - - [31/Aug/2024 22:46:51] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:46:51,370 - 127.0.0.1 - - [31/Aug/2024 22:46:51] "[36mGET /static/images/1.png HTTP/1.1[0m" 304 -
+2024-08-31 22:46:51,372 - 127.0.0.1 - - [31/Aug/2024 22:46:51] "[36mGET /static/images/2.png HTTP/1.1[0m" 304 -
+2024-08-31 22:46:51,373 - 127.0.0.1 - - [31/Aug/2024 22:46:51] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-31 22:52:24,271 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-31 22:52:24,272 - [33mPress CTRL+C to quit[0m
+2024-08-31 22:52:24,274 -  * Restarting with watchdog (inotify)
+2024-08-31 22:52:26,656 -  * Debugger is active!
+2024-08-31 22:52:26,656 -  * Debugger PIN: 642-712-147
+2024-08-31 22:52:28,010 - 127.0.0.1 - - [31/Aug/2024 22:52:28] "GET / HTTP/1.1" 200 -
+2024-08-31 22:52:28,048 - 127.0.0.1 - - [31/Aug/2024 22:52:28] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:52:28,051 - 127.0.0.1 - - [31/Aug/2024 22:52:28] "[36mGET /static/images/2.png HTTP/1.1[0m" 304 -
+2024-08-31 22:52:28,052 - 127.0.0.1 - - [31/Aug/2024 22:52:28] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-31 22:52:28,054 - 127.0.0.1 - - [31/Aug/2024 22:52:28] "[36mGET /static/images/1.png HTTP/1.1[0m" 304 -
+2024-08-31 22:52:30,259 - 127.0.0.1 - - [31/Aug/2024 22:52:30] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 22:52:30,288 - 127.0.0.1 - - [31/Aug/2024 22:52:30] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:52:33,359 - 127.0.0.1 - - [31/Aug/2024 22:52:33] "GET /webapp HTTP/1.1" 200 -
+2024-08-31 22:52:51,776 - Email sending took 0.45 seconds
+2024-08-31 22:52:51,904 - -- BEGIN Twilio API Request --
+2024-08-31 22:52:51,904 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:52:51,904 - Headers:
+2024-08-31 22:52:51,904 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:52:51,904 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:52:51,904 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:52:51,904 - Accept-Charset : utf-8
+2024-08-31 22:52:51,904 - Accept : application/json
+2024-08-31 22:52:51,904 - -- END Twilio API Request --
+2024-08-31 22:52:52,923 - Response Status Code: 201
+2024-08-31 22:52:52,924 - Response Headers: {'Date': 'Sat, 31 Aug 2024 17:22:52 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1058', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ1a66cef25124ef56a4afae30e17901f0', 'Twilio-Request-Duration': '0.117', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 22:52:52,924 - SMS sending took 1.15 seconds
+2024-08-31 22:53:05,808 - 127.0.0.1 - - [31/Aug/2024 22:53:05] "GET /home HTTP/1.1" 200 -
+2024-08-31 22:53:05,896 - 127.0.0.1 - - [31/Aug/2024 22:53:05] "GET /static/images/kongsberg.jpeg HTTP/1.1" 200 -
+2024-08-31 22:53:05,900 - 127.0.0.1 - - [31/Aug/2024 22:53:05] "[36mGET /static/images/1.png HTTP/1.1[0m" 304 -
+2024-08-31 22:53:05,906 - 127.0.0.1 - - [31/Aug/2024 22:53:05] "[36mGET /static/images/2.png HTTP/1.1[0m" 304 -
+2024-08-31 22:53:05,907 - 127.0.0.1 - - [31/Aug/2024 22:53:05] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-31 22:53:05,923 - 127.0.0.1 - - [31/Aug/2024 22:53:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-08-31 22:53:17,107 - 127.0.0.1 - - [31/Aug/2024 22:53:17] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 22:53:17,145 - 127.0.0.1 - - [31/Aug/2024 22:53:17] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 22:53:20,052 - 127.0.0.1 - - [31/Aug/2024 22:53:20] "GET /webapp HTTP/1.1" 200 -
+2024-08-31 22:53:22,491 - Email sending took 0.68 seconds
+2024-08-31 22:53:22,493 - -- BEGIN Twilio API Request --
+2024-08-31 22:53:22,493 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:53:22,493 - Headers:
+2024-08-31 22:53:22,493 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:53:22,493 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:53:22,493 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:53:22,494 - Accept-Charset : utf-8
+2024-08-31 22:53:22,494 - Accept : application/json
+2024-08-31 22:53:22,494 - -- END Twilio API Request --
+2024-08-31 22:53:23,555 - Response Status Code: 201
+2024-08-31 22:53:23,556 - Response Headers: {'Date': 'Sat, 31 Aug 2024 17:23:23 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1161', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ12455c3360039b73de41e2f3099c654c', 'Twilio-Request-Duration': '0.108', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 22:53:23,557 - SMS sending took 1.06 seconds
+2024-08-31 22:53:52,328 - Email sending took 0.38 seconds
+2024-08-31 22:53:52,329 - -- BEGIN Twilio API Request --
+2024-08-31 22:53:52,329 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 22:53:52,330 - Headers:
+2024-08-31 22:53:52,330 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 22:53:52,330 - User-Agent : twilio-python/9.2.4 (Linux x86_64) Python/3.11.5
+2024-08-31 22:53:52,330 - X-Twilio-Client : python-9.2.4
+2024-08-31 22:53:52,330 - Accept-Charset : utf-8
+2024-08-31 22:53:52,330 - Accept : application/json
+2024-08-31 22:53:52,331 - -- END Twilio API Request --
+2024-08-31 22:53:53,358 - Response Status Code: 201
+2024-08-31 22:53:53,359 - Response Headers: {'Date': 'Sat, 31 Aug 2024 17:23:53 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1036', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ70c8fa624867bbb4bf092c8de97c1035', 'Twilio-Request-Duration': '0.103', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 22:53:53,360 - SMS sending took 1.03 seconds
+2024-08-31 23:03:29,264 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-31 23:03:29,265 - [33mPress CTRL+C to quit[0m
+2024-08-31 23:03:29,268 -  * Restarting with stat
+2024-08-31 23:03:34,875 -  * Debugger is active!
+2024-08-31 23:03:34,886 -  * Debugger PIN: 137-618-044
+2024-08-31 23:13:52,494 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-31 23:13:52,495 - [33mPress CTRL+C to quit[0m
+2024-08-31 23:13:52,497 -  * Restarting with stat
+2024-08-31 23:13:57,302 -  * Debugger is active!
+2024-08-31 23:13:57,310 -  * Debugger PIN: 137-618-044
+2024-08-31 23:14:12,585 - 127.0.0.1 - - [31/Aug/2024 23:14:12] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 23:14:12,913 - 127.0.0.1 - - [31/Aug/2024 23:14:12] "GET /static/images/kongsberg.jpeg HTTP/1.1" 200 -
+2024-08-31 23:14:18,500 - 127.0.0.1 - - [31/Aug/2024 23:14:18] "GET / HTTP/1.1" 200 -
+2024-08-31 23:14:18,657 - 127.0.0.1 - - [31/Aug/2024 23:14:18] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 23:14:18,663 - 127.0.0.1 - - [31/Aug/2024 23:14:18] "GET /static/images/1.png HTTP/1.1" 200 -
+2024-08-31 23:14:18,671 - 127.0.0.1 - - [31/Aug/2024 23:14:18] "GET /static/images/2.png HTTP/1.1" 200 -
+2024-08-31 23:14:18,673 - 127.0.0.1 - - [31/Aug/2024 23:14:18] "GET /static/images/3.png HTTP/1.1" 200 -
+2024-08-31 23:14:22,103 - 127.0.0.1 - - [31/Aug/2024 23:14:22] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 23:14:22,253 - 127.0.0.1 - - [31/Aug/2024 23:14:22] "GET /static/images/kongsberg.jpeg HTTP/1.1" 200 -
+2024-08-31 23:14:31,287 - Email sending took 0.72 seconds
+2024-08-31 23:14:31,567 - -- BEGIN Twilio API Request --
+2024-08-31 23:14:31,567 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 23:14:31,567 - Headers:
+2024-08-31 23:14:31,567 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 23:14:31,568 - User-Agent : twilio-python/9.2.4 (Windows AMD64) Python/3.12.3
+2024-08-31 23:14:31,568 - X-Twilio-Client : python-9.2.4
+2024-08-31 23:14:31,568 - Accept-Charset : utf-8
+2024-08-31 23:14:31,568 - Accept : application/json
+2024-08-31 23:14:31,568 - -- END Twilio API Request --
+2024-08-31 23:14:33,176 - Response Status Code: 201
+2024-08-31 23:14:33,177 - Response Headers: {'Date': 'Sat, 31 Aug 2024 17:44:32 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '831', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQff6638a9b108c4b0aef00a4a65280450', 'Twilio-Request-Duration': '0.108', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 23:14:33,177 - SMS sending took 1.89 seconds
+2024-08-31 23:14:33,188 - 127.0.0.1 - - [31/Aug/2024 23:14:33] "GET /webapp HTTP/1.1" 200 -
+2024-08-31 23:14:35,886 - 127.0.0.1 - - [31/Aug/2024 23:14:35] "GET /webapp HTTP/1.1" 200 -
+2024-08-31 23:18:01,490 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-31 23:18:01,490 - [33mPress CTRL+C to quit[0m
+2024-08-31 23:18:01,495 -  * Restarting with stat
+2024-08-31 23:18:07,427 -  * Debugger is active!
+2024-08-31 23:18:07,437 -  * Debugger PIN: 137-618-044
+2024-08-31 23:18:20,999 - 127.0.0.1 - - [31/Aug/2024 23:18:20] "GET / HTTP/1.1" 200 -
+2024-08-31 23:18:21,456 - 127.0.0.1 - - [31/Aug/2024 23:18:21] "[36mGET /static/images/2.png HTTP/1.1[0m" 304 -
+2024-08-31 23:18:21,468 - 127.0.0.1 - - [31/Aug/2024 23:18:21] "[36mGET /static/images/1.png HTTP/1.1[0m" 304 -
+2024-08-31 23:18:21,480 - 127.0.0.1 - - [31/Aug/2024 23:18:21] "GET /static/images/kongsberg.jpeg HTTP/1.1" 200 -
+2024-08-31 23:18:21,487 - 127.0.0.1 - - [31/Aug/2024 23:18:21] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-31 23:18:22,918 - 127.0.0.1 - - [31/Aug/2024 23:18:22] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 23:18:22,995 - 127.0.0.1 - - [31/Aug/2024 23:18:22] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 23:18:37,804 - Email sending took 0.55 seconds
+2024-08-31 23:18:38,006 - -- BEGIN Twilio API Request --
+2024-08-31 23:18:38,007 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 23:18:38,007 - Headers:
+2024-08-31 23:18:38,007 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 23:18:38,007 - User-Agent : twilio-python/9.2.4 (Windows AMD64) Python/3.12.3
+2024-08-31 23:18:38,007 - X-Twilio-Client : python-9.2.4
+2024-08-31 23:18:38,007 - Accept-Charset : utf-8
+2024-08-31 23:18:38,007 - Accept : application/json
+2024-08-31 23:18:38,007 - -- END Twilio API Request --
+2024-08-31 23:18:39,596 - Response Status Code: 201
+2024-08-31 23:18:39,596 - Response Headers: {'Date': 'Sat, 31 Aug 2024 17:48:38 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '933', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQc126baed1de119fd49254d6410a6b91f', 'Twilio-Request-Duration': '0.110', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 23:18:39,597 - SMS sending took 1.79 seconds
+2024-08-31 23:18:39,609 - 127.0.0.1 - - [31/Aug/2024 23:18:39] "GET /webapp HTTP/1.1" 200 -
+2024-08-31 23:20:11,003 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-31 23:20:11,003 - [33mPress CTRL+C to quit[0m
+2024-08-31 23:20:11,006 -  * Restarting with stat
+2024-08-31 23:20:17,681 -  * Debugger is active!
+2024-08-31 23:20:17,693 -  * Debugger PIN: 137-618-044
+2024-08-31 23:20:26,059 - 127.0.0.1 - - [31/Aug/2024 23:20:26] "GET / HTTP/1.1" 200 -
+2024-08-31 23:20:26,554 - 127.0.0.1 - - [31/Aug/2024 23:20:26] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 23:20:26,595 - 127.0.0.1 - - [31/Aug/2024 23:20:26] "[36mGET /static/images/3.png HTTP/1.1[0m" 304 -
+2024-08-31 23:20:26,610 - 127.0.0.1 - - [31/Aug/2024 23:20:26] "GET /static/images/2.png HTTP/1.1" 200 -
+2024-08-31 23:20:26,623 - 127.0.0.1 - - [31/Aug/2024 23:20:26] "GET /static/images/1.png HTTP/1.1" 200 -
+2024-08-31 23:20:30,344 - 127.0.0.1 - - [31/Aug/2024 23:20:30] "GET /FrontPage HTTP/1.1" 200 -
+2024-08-31 23:20:30,449 - 127.0.0.1 - - [31/Aug/2024 23:20:30] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 23:20:54,101 - 127.0.0.1 - - [31/Aug/2024 23:20:54] "POST /FrontPage HTTP/1.1" 200 -
+2024-08-31 23:20:54,201 - 127.0.0.1 - - [31/Aug/2024 23:20:54] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 23:21:06,283 - 127.0.0.1 - - [31/Aug/2024 23:21:06] "POST /FrontPage HTTP/1.1" 200 -
+2024-08-31 23:21:06,379 - 127.0.0.1 - - [31/Aug/2024 23:21:06] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 23:21:25,003 - 127.0.0.1 - - [31/Aug/2024 23:21:25] "POST /FrontPage HTTP/1.1" 200 -
+2024-08-31 23:21:25,101 - 127.0.0.1 - - [31/Aug/2024 23:21:25] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 23:21:28,977 - 127.0.0.1 - - [31/Aug/2024 23:21:28] "GET /webcam HTTP/1.1" 200 -
+2024-08-31 23:21:29,047 - 127.0.0.1 - - [31/Aug/2024 23:21:29] "[36mGET /static/images/kongsberg.jpeg HTTP/1.1[0m" 304 -
+2024-08-31 23:21:43,029 - Email sending took 0.50 seconds
+2024-08-31 23:21:43,193 - -- BEGIN Twilio API Request --
+2024-08-31 23:21:43,193 - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC7848db81ee0bf975b6860ece7afe00fe/Messages.json
+2024-08-31 23:21:43,193 - Headers:
+2024-08-31 23:21:43,194 - Content-Type : application/x-www-form-urlencoded
+2024-08-31 23:21:43,194 - User-Agent : twilio-python/9.2.4 (Windows AMD64) Python/3.12.3
+2024-08-31 23:21:43,194 - X-Twilio-Client : python-9.2.4
+2024-08-31 23:21:43,194 - Accept-Charset : utf-8
+2024-08-31 23:21:43,194 - Accept : application/json
+2024-08-31 23:21:43,194 - -- END Twilio API Request --
+2024-08-31 23:21:44,723 - Response Status Code: 201
+2024-08-31 23:21:44,723 - Response Headers: {'Date': 'Sat, 31 Aug 2024 17:51:44 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Content-Length': '1161', 'Connection': 'keep-alive', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ3ea3031abd4c87604e5ba55a7ba1b301', 'Twilio-Request-Duration': '0.122', 'X-Api-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key, X-Pre-Auth-Context, X-Target-Region', 'Access-Control-Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS', 'Access-Control-Expose-Headers': 'ETag, Twilio-Request-Id', 'Access-Control-Allow-Credentials': 'true', 'X-Shenanigans': 'none', 'X-Powered-By': 'AT-5000', 'X-Home-Region': 'us1'}
+2024-08-31 23:21:44,724 - SMS sending took 1.69 seconds
+2024-08-31 23:21:44,732 - 127.0.0.1 - - [31/Aug/2024 23:21:44] "GET /webapp HTTP/1.1" 200 -
